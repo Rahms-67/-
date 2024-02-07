@@ -1,0 +1,144 @@
+.menu{ 
+    background-color: rgb(17, 11, 3);
+
+    overflow: auto;
+
+ }
+
+ .main{
+    overflow: auto;
+    background-color: rgb(247, 245, 243);
+    text-align: center;
+    padding-top:20px ;
+padding-bottom: 20px;
+ }
+ .photos{
+    overflow: auto;
+    background-color: rgb(233, 172, 80);
+    text-align: center;
+padding-top: 20px;
+padding-bottom: 40px;
+ }
+ .footer{
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: rgb(17, 11, 3);
+ }
+ .photos img{
+border-style: solid;
+border-width:2px ;
+border-color: #160f06;
+border-radius: 6px;
+margin: 2px;
+object-fit: cover;
+object-position: top;
+ }
+.menu ul {
+    text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;
+text-decoration:none ;
+}
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+  .menu li a {
+display: inline-block;
+height: auto;
+width: 150px;
+color: rgb(0, 0, 0);
+background-color: rgb(255, 170, 73);
+padding: 10px;
+text-align: center;
+margin: 4px;
+font-size: 18px;
+font-weight: bold;
+text-decoration: none;
+border-radius: 4px;
+  }
+  .menu li a:hover{
+    background-color: aliceblue;
+    
+  }
+.footer ul {
+text-align: center;
+padding-top: 10px;
+padding-bottom: 10px;
+text-decoration: none;
+
+}
+.footer li {
+    display: inline-block;
+text-align: center;
+}
+.footer li a{
+display: inline-block;
+height:auto ;
+width: auto;
+color: rgb(0, 0, 0);
+background-color: rgb(255, 170, 73);
+padding: 10px;
+margin: 4px;
+text-align: center;
+font-size: 16px;
+font-weight: bold;
+text-decoration: none;
+}
+.footer li a:hover {
+
+    background-color: aliceblue;
+    
+}
+h1{
+color: rgb(65, 41, 19);
+font-weight: bolder;
+font-size: 36px;
+text-align: center;
+}
+.main h2{
+    overflow: auto;
+margin-top: 40px;
+margin-left: auto;
+margin-right: auto;
+width: 200px;
+padding: 10px;
+background-color: aliceblue;
+color: rgb(65, 41, 19);
+font-weight: bold;
+text-align: center;
+border-radius: 30px;
+}
+.photos h2 {
+ color: rgb(65, 41, 19);
+ font-size: 28px;
+}
+.footer h2{
+    color:aliceblue;
+}
+.footer p{
+    color:rgb(250, 248, 247) ;
+}
+
+.menu h1{
+    color: aliceblue;
+    text-align: center;
+}
+h2{
+    color: rgb(58, 38, 12);
+    text-align: center;
+}
+ p{
+    text-align: center;
+}
+.container{
+    background-color:  rgb(255, 243, 134);
+align-items: center;
+align-content: center;
+    align-self: center;
+    text-align: center;
+    ruby-align: center;
+   -moz-box-align: center;
+}
